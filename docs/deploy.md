@@ -1,12 +1,16 @@
 [home](../README.md)
 
-Copy up your server block file, make it available, and test the config.
+Copy up your server block file and install your certs.
 
 
     ./ds.sh
     ssh prod
     sudo ln -s /etc/nginx/sites-available/<your domain> /etc/nginx/sites-enabled/
     sudo nginx -t
+    sudo systemctl restart nginx
+    sudo certbot --nginx -d <your domain> -d www.<your domain>
+
+... and take option 2 to redirect all http to https.
 
 # Deploy ten10108.com...
 

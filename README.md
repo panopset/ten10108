@@ -1,6 +1,6 @@
 # [ten10108](http://ten10108.com)
 
-These deployment steps build from prior steps, first time through run each one at least once, in order
+These deployment steps build from prior steps, first time run through each one at least once, in order
 
 * [Linux Mint Development PC Preparation](docs/prep_pc.md)
 * [DNS Preparation](docs/prep_dns.md)
