@@ -1,0 +1,6 @@
+${@t init.txt}
+${@f prep_dns.md}${homelink}${@t prep_dns.md}
+${@f prep_server.md}${homelink}${@t prep_server.md}
+${@f prep_pc.md}${homelink}${@t prep_pc.md}
+${@f deploy.md}${homelink}${@t deploy.md}${@p sbfn}../temp/${T8_DOMAIN}${@q}
+${@f sbfn}${@t ../serverblock.txt}
